@@ -288,7 +288,7 @@ generate_static_system() {
 		delete system.@system[0]
 		add system system
 		set system.@system[-1].hostname='OpenWrt'
-		set system.@system[-1].timezone='GMT'
+		set system.@system[-1].timezone='WIB-7'
 		set system.@system[-1].ttylogin='0'
 		set system.@system[-1].log_size='64'
 		set system.@system[-1].urandom_seed='0'
